@@ -1,0 +1,95 @@
+
+/* Nice colors, size and all decorating stuffs we could work on at last also */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    height: 100vh;
+    font-family: sans-serif;
+    text-transform: capitalize;
+
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+.main{
+    
+    width: 80%; height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;align-items: center;justify-content:space-evenly;
+}
+
+.main > .project-title{
+    
+    font-size: 2.2rem;
+    color: #262626;
+}
+
+
+
+.main > .button > .ainbutton{
+    text-decoration: none;
+    color: #262626;
+    font-size: 1.3rem;
+    display: flex;align-items:center; justify-content: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    box-shadow: 0px 10px 30px -9px #000;
+}
+
+
+
+.main > .button >.ainbutton:hover {
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: #febd44;
+}
+
+.main > .team-members{
+    
+    width: 40%;
+    box-shadow: 0 5px 15px -5px #000;
+    align-self: flex-start;
+    margin: 0 0 10vh 50px;
+    padding: 18px 14px;
+    border-radius: 13px;
+    background-color: #f1c2d0;
+
+}
+
+.main > .team-members > .member {
+
+    margin-bottom: 20px;
+    display: flex;align-items: center;justify-content: space-between;
+}
+
+.main > .team-members > h1{
+    margin-bottom: 8px;
+    color: #262626;
+}
+
+.main > .team-members > .member > p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #262626;
+}
+
+.main > .team-members > .member > .member-image{
+    
+    display: block;
+    height: 100px;
+    width: auto;
+    border-radius: 1000px;
+
+}
+

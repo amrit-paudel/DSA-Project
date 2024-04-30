@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake and ladder game</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/info.css">
+    <script type="module" src="../scripts/info.js" defer></script>
+
+</head>
+
+<body>
+    <section>
+        <div class="navbar">
+            <h1> Snake and ladder</h1>
+            <a href="##" class="rate-and-review">Rate and Review</a>
+
+        </div>
+
+        <div class="get-players">
+            <label for="no-of-players">Players</label>
+            <div class="players-and-names">
+                <select name="players" id="no-of-players">
+                    <option value="player1">1 Player</option>
+                    <option value="player2">2 Players</option>
+                    <option value="player3">3 Players</option>
+                    <option value="player4">4 Players</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="start-game-btn">
+            <button id="start-game"> <a href="../html/main.html" id="start-game1">Start Game</a> </button>
+        </div>
+
+        <div class="instructions">
+            <h1>Instructions</h1><br>
+            <h3>Commence playing</h3>
+            <p>
+                The first player to roll 1 can enter the board.
+                Each subsequent player must also throw a 1 to enter
+                the board.
+            </p>
+
+            <h3>Continue playing</h3>
+            <p>
+                If a player rolls 6 or 1 that player can continue playing further.
+            </p>
+
+            <h3>Snake</h3>
+            <p>
+                Upon moving markers if a player lands at the
+                tip of snake's head, his or her marker slides down to the square
+                at the snake's tail
+            </p>
+
+            <h3>Ladder</h3>
+            <p>
+                If a player lands on a square that is at the base of a ladder, his or her
+                marker moves to the square at the top of the ladder and continues from there
+            </p>
+
+
+            <h3>How to Roll Dice ?</h3>
+            <p>
+                Click once and let the dice finish rolling<br>Do not click the dice again while rolling
+            </p>
+
+
+        </div>
+    </section>
+</body>
+
+</html>

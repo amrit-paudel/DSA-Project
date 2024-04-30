@@ -1,0 +1,82 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --textColor:#262626;
+    --btn-bg-color:#febd44;
+    --box-shadow-one:0px 5px 20px -5px #000;
+    --box-shadow-two:0px 8px 50px -10px #000;
+}
+
+body{ 
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;align-items: center; justify-content: center;
+    font-family: sans-serif;
+}
+
+h1,h2,span{
+    color: var(--textColor);
+}
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 1.9rem;
+}
+
+.main{
+    width: 60%;
+    height: 60%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: var(--box-shadow-two);
+
+}
+
+.main > .congratulation{
+    
+    padding: 2px 5px;
+}
+
+.main > .winner{
+    
+    padding: 2px 5px;
+}
+
+.main > .replay{
+    
+    padding: 2px 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a.button{
+    text-decoration: none;
+    color: var(--textColor);
+    font-weight: 550;
+    padding: 2px;
+    text-shadow: none;
+    display: flex; align-items: center; justify-content: center;
+    
+    width: 90px;
+    height: 40px;
+    border-radius: 100px;
+    box-shadow: var(--box-shadow-one);
+}
+
+a.button:hover{
+    background-color: var(--btn-bg-color);
+}
+
